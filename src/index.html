@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>formulaires HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <form action="#">
+      <label for="firstname:"></label>
+      <input type="text" id="firstname" name="firstname" placeholder="Prénom" />
+      <label for="lastname:"></label>
+      <input type="text" id="lastname" name="lastname" placeholder="Nom" />
+      <br />
+      <br />
+      <label>
+        <input type="radio" name="language" value="Français" />Français
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="language" value="Allemand" />Allemand
+      </label>
+      <br />
+      <label>
+        <input type="radio" name="language" value="Italien" />Italien
+      </label>
+      <br />
+      <br />
+      <label>
+        <input type="checkbox" name="newsletter" />
+        S'abonner à la newsletter
+      </label>
+      <br />
+      <label>
+        <input type="checkbox" name="conditions" />
+        J'accepte les conditions générales
+      </label>
+      <br />
+      <br />
+      <select id="country" name="country">
+        <option value="CH">Suisse</option>
+        <option value="FR">France</option>
+        <option value="IT">Italie</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">Remarque</label>
+      <br />
+      <textarea id="message" name="message"></textarea>
+    </form>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
