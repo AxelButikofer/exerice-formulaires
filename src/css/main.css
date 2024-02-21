@@ -46,3 +46,35 @@ video {
 body {
   margin: 100px;
 }
+
+p {
+  color: white;
+  background: #0088dd;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+form {
+  background: #303245;
+  padding: 20px;
+}
+
+label {
+  color: #dc2e55;
+}
+
+textarea {
+  background: #65657a;
+  border-radius: 5px;
+}
+
+select {
+  background: #65657a;
+  border-radius: 5px;
+  color: lightgrey;
+}
+
+input {
+  background: #65657a;
+}
