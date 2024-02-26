@@ -8,11 +8,16 @@
   </head>
   <body>
     <form action="#">
-      <label for="firstname:"></label>
-      <input type="text" id="firstname" name="firstname" placeholder="Prénom" />
-      <label for="lastname:"></label>
-      <input type="text" id="lastname" name="lastname" placeholder="Nom" />
+      <div class="textfield">
+        <input type="text" id="firstname" name="firstname" />
+        <label for="firstname:">Prénom</label>
+      </div>
       <br />
+      <div class="textfield">
+        <input type="text" id="lastname" name="lastname" />
+        <label for="lastname:">Nom</label>
+      </div>
+
       <br />
       <label>
         <input type="radio" name="language" value="Français" />Français

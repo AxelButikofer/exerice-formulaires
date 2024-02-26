@@ -93,6 +93,7 @@ input {
   height: 16px;
   border-radius: 8px;
   background: #f44335;
+  transition: 0.3s;
 }
 
 input:checked + .switch-wrapper .switch-inner {
@@ -101,4 +102,28 @@ input:checked + .switch-wrapper .switch-inner {
 
 .switch input {
   display: none;
+}
+
+.textfield {
+  position: relative;
+}
+
+.textfield label {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+}
+
+input:focus + label {
+  transform: translateY(-7px) scale(0.7);
+}
+
+.textfield label {
+  position: absolute;
+  top: 1px;
+  left: 10px;
+  pointer-events: none;
+  background: white;
+  transition: 0.3s;
+  transform-origin: left;
 }
