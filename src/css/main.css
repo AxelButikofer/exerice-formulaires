@@ -127,3 +127,11 @@ input:focus + label {
   transition: 0.3s;
   transform-origin: left;
 }
+
+.radio-placceholder {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: #f44335;
+}
